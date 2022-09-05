@@ -19,8 +19,10 @@ export const AuthLayout = ( { title, children }: Props ) => {
             
             <Grid
                 className= 'box-shadow'
-                xs = {11} sm={ 7 } md={ 5 }
-                sx = {{ backgroundColor:'white', padding:3, borderRadius: 5 }}
+                // xs = {11} 
+                // sm={ 7 } 
+                // md={ 5 }
+                sx = {{ backgroundColor:'white', padding:3, borderRadius: 5, maxWidth:500 }}
             >
                 <Typography variant='h4' >{ title }</Typography>
                 { children }

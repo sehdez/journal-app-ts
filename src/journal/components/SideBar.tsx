@@ -30,7 +30,7 @@ export const SideBar = ({ drawerWidth = 240 }:Props ) => {
                 <List>
                     {
                         ['Enero', 'Febrero','Marzo', 'Abril', 'Mayo','Junio'].map(( text ) => (
-                            <ListItemButton>
+                            <ListItemButton key = { text }>
                                 <ListItemIcon>
                                     <TurnedInNot />
                                 </ListItemIcon>

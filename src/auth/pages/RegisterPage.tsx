@@ -28,6 +28,7 @@ export const RegisterPage = () => {
                             label='Contraseña' 
                             placeholder="Contraseña" 
                             type='password' 
+                            autoComplete='off'
                             fullWidth
                         />
                     </Grid>
@@ -36,6 +37,7 @@ export const RegisterPage = () => {
                             label='Confirmar contraseña' 
                             placeholder="Confirmar contraseña" 
                             type='password' 
+                            autoComplete='off'
                             fullWidth
                         />
                     </Grid>
